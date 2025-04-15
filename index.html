@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>기초 컴퓨터 용어 복습</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>🖥️ 기본 컴퓨터 용어 10가지</h1>
+
+  <div class="card-list">
+    <div class="card"><h3>1. CPU</h3><p>중앙처리장치로 연산과 명령 제어를 담당하는 컴퓨터의 핵심 부품</p></div>
+    <div class="card"><h3>2. RAM</h3><p>작업 중인 데이터를 일시적으로 저장하는 휘발성 메모리</p></div>
+    <div class="card"><h3>3. HDD</h3><p>자기 디스크를 이용한 저장장치. 용량은 크지만 속도는 느림</p></div>
+    <div class="card"><h3>4. SSD</h3><p>빠른 속도의 저장장치로, 하드디스크보다 데이터 접근이 빠름</p></div>
+    <div class="card"><h3>5. IP 주소</h3><p>인터넷에 연결된 장치를 식별하는 고유 주소</p></div>
+    <div class="card"><h3>6. OS (운영체제)</h3><p>하드웨어와 소프트웨어를 관리하고 사용자와 컴퓨터 사이를 연결</p></div>
+    <div class="card"><h3>7. URL</h3><p>웹 상의 자원의 주소를 나타냄 (예: https://example.com)</p></div>
+    <div class="card"><h3>8. DNS</h3><p>도메인 이름을 IP 주소로 변환해주는 시스템</p></div>
+    <div class="card"><h3>9. BIOS</h3><p>컴퓨터가 부팅될 때 가장 먼저 실행되는 시스템 소프트웨어</p></div>
+    <div class="card"><h3>10. GPU</h3><p>그래픽 연산을 전문적으로 수행하는 장치</p></div>
+  </div>
+
+  <h2>📝 퀴즈</h2>
+  <div class="quiz">
+    <div class="question">
+      1. 컴퓨터의 중앙처리장치인 '두뇌'에 해당하는 용어는?
+      <div class="choices">
+        <input type="radio" name="q1" value="a"> a) RAM<br>
+        <input type="radio" name="q1" value="b"> b) HDD<br>
+        <input type="radio" name="q1" value="c"> c) CPU<br>
+        <input type="radio" name="q1" value="d"> d) GPU<br>
+      </div>
+    </div>
+
+    <div class="question">
+      2. 도메인 이름을 IP 주소로 바꿔주는 시스템은?
+      <div class="choices">
+        <input type="radio" name="q2" value="a"> a) URL<br>
+        <input type="radio" name="q2" value="b"> b) DNS<br>
+        <input type="radio" name="q2" value="c"> c) IP 주소<br>
+        <input type="radio" name="q2" value="d"> d) OS<br>
+      </div>
+    </div>
+
+    <div class="question">
+      3. 휘발성이며 작업 중인 데이터를 저장하는 메모리는?
+      <div class="choices">
+        <input type="radio" name="q3" value="a"> a) BIOS<br>
+        <input type="radio" name="q3" value="b"> b) SSD<br>
+        <input type="radio" name="q3" value="c"> c) RAM<br>
+        <input type="radio" name="q3" value="d"> d) HDD<br>
+      </div>
+    </div>
+
+    <div class="question">
+      4. 컴퓨터 부팅 시 가장 먼저 실행되는 소프트웨어는?
+      <div class="choices">
+        <input type="radio" name="q4" value="a"> a) OS<br>
+        <input type="radio" name="q4" value="b"> b) BIOS<br>
+        <input type="radio" name="q4" value="c"> c) CPU<br>
+        <input type="radio" name="q4" value="d"> d) GPU<br>
+      </div>
+    </div>
+
+    <div class="question">
+      5. 웹 페이지 주소를 의미하는 용어는?
+      <div class="choices">
+        <input type="radio" name="q5" value="a"> a) DNS<br>
+        <input type="radio" name="q5" value="b"> b) IP<br>
+        <input type="radio" name="q5" value="c"> c) URL<br>
+        <input type="radio" name="q5" value="d"> d) OS<br>
+      </div>
+    </div>
+
+    <button onclick="checkAnswers()">정답 확인</button>
+    <div id="result" class="result"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

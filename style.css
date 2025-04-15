@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f4f8;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background: #eef3ff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
